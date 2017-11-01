@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<head>
+		<title>Home - HybridDog's Official Website (beta)</title>
+	</head>
+	<body>
+		<div class="inline">
+			<span class="title">Hybrid's Offical Website Home Page </span><span id="subtitle"> (Still in beta)</span>
+		</div>
+		<br>
+		<div class="tabx">
+			<div class="tabx-menu">
+				<a href="HybridDog5891.github.io" data-tabx="tab1" class="click1 tab">Home</a>
+				<a href="https://www.google.com/" data-tabx="tab2" class="click2 tab">Google</a>
+				<a href="https://www.youtube.com/" data-tabx="tab3" class="click3 tab">Youtube</a>
+				<a href="https://www.facebook.com/" data-tabx="tab4" class="click4 tab">Facebook</a>
+				<a href="https://www.twitter.com/" data-tabx="tab5" class="click5 tab">Twitter</a>
+				<a href="https://www.instagram.com/" data-tabx="tab6" class="click6 tab">Instagram</a>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="intro">
+			<h1>About this website</h1>
+			<p class="p1">This was created for fun and is not intended to be taken serious (for now).</p>
+		</div>
+		<br>
+		<br>
+		<footer><strong>&copy; 2017 HybridDog</strong></footer>
+	</body>
+</html>
+
+<style>
+	body{
+		font-family: sans-serif;
+		margin-left: 50px;
+		margin-top: 25px;
+		margin-right: 50px;
+		color: #000000;
+	}
+	.title{
+		font-size: 60px;
+		color: #000000;
+		font-family: 'Anton', sans-serif;
+		text-shadow: 2px 2px 4px #888888;
+	}
+	#subtitle{
+		font-family: 'Anton', sans-serif;
+	}
+	.intro{
+		border: 1px solid #FFFFFF;
+		padding: 5px;
+		background-color: #FFFFFF;
+		box-shadow: 4px 4px 8px #888888;
+		width: 925px;
+	}
+	h1{
+		font-family: 'Anton', sans-serif;
+		margin-top: 0px;
+		text-shadow: 2px 2px 4px #888888;
+		color: #000000;
+	}
+	p{
+		font-size: 16px;
+		padding: 10px;
+		clear: both;
+		overflow: hidden;
+	}
+	.tab-indent{
+		margin-left: 5%;
+	}
+	footer{
+		text-shadow: 1px 1px 4px #888888;
+		font-size: 15px;
+		position: fixed;
+		bottom: 5px;
+		margin-left: -40px;
+	}
+	.tab{
+		border: 1px solid #FFFFFF;
+		padding: 8px 25px 8px 25px;
+		font-size: 20px;
+		box-shadow: 4px 4px 12px #888888;
+		text-decoration: none;
+		color: #000000;
+		background-color: #FFFFFF;
+	}
+	.tabx-menu{
+		background-color: #888888;
+		display: inline;
+	}
+</style>
+
+
+
+<script>
+	$(document).ready(function(){
+
+		$('.tab').hover(
+			function(){
+				$(this).css('background-color','#3F7FBF').css('color','#FFFFFF').css('text-decoration','none');
+			},
+			function(){
+				$(this).css('background-color','#FFFFFF').css('color','#000000');
+			}
+		);
+	});
+</script>
+
+<!--color: #3F7FBF-->
